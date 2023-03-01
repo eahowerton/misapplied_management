@@ -1,0 +1,922 @@
+﻿State,State Abbreviation,County,Year Invaded
+Alabama,AL,Mobile,1918
+Alabama,AL,Baldwin,1931
+Alabama,AL,Clarke,1939
+Alabama,AL,Conecuh,1939
+Alabama,AL,Escambia,1939
+Alabama,AL,Monroe,1939
+Alabama,AL,Washington,1939
+Florida,FL,Escambia,1939
+Florida,FL,Santa Rosa,1939
+Mississippi,MS,George,1939
+Mississippi,MS,Greene,1939
+Mississippi,MS,Jackson,1939
+Alabama,AL,Autauga,1953
+Alabama,AL,Chilton,1953
+Alabama,AL,Choctaw,1953
+Alabama,AL,Dallas,1953
+Alabama,AL,Lowndes,1953
+Alabama,AL,Marengo,1953
+Alabama,AL,Montgomery,1953
+Alabama,AL,Perry,1953
+Alabama,AL,Sumter,1953
+Alabama,AL,Wilcox,1953
+Florida,FL,Bay,1953
+Florida,FL,Okaloosa,1953
+Louisiana,LA,East Baton Rouge,1953
+Louisiana,LA,Iberia,1953
+Louisiana,LA,Jefferson,1953
+Louisiana,LA,Lafayette,1953
+Louisiana,LA,Orleans,1953
+Louisiana,LA,Plaquemines,1953
+Louisiana,LA,St. Bernard,1953
+Louisiana,LA,St. Landry,1953
+Louisiana,LA,St. Martin,1953
+Louisiana,LA,St. Tammany,1953
+Louisiana,LA,Vermilion,1953
+Louisiana,LA,Washington,1953
+Mississippi,MS,Clarke,1953
+Mississippi,MS,Clay,1953
+Mississippi,MS,Forrest,1953
+Mississippi,MS,Hancock,1953
+Mississippi,MS,Harrison,1953
+Mississippi,MS,Jones,1953
+Mississippi,MS,Kemper,1953
+Mississippi,MS,Lamar,1953
+Mississippi,MS,Lauderdale,1953
+Mississippi,MS,Lowndes,1953
+Mississippi,MS,Marion,1953
+Mississippi,MS,Newton,1953
+Mississippi,MS,Noxubee,1953
+Mississippi,MS,Oktibbeha,1953
+Mississippi,MS,Pearl River,1953
+Mississippi,MS,Perry,1953
+Mississippi,MS,Stone,1953
+Mississippi,MS,Walthall,1953
+Mississippi,MS,Wayne,1953
+Mississippi,MS,Winston,1953
+Alabama,AL,Barbour,1958
+Alabama,AL,Bibb,1958
+Alabama,AL,Bullock,1958
+Alabama,AL,Butler,1958
+Alabama,AL,Calhoun,1958
+Alabama,AL,Covington,1958
+Alabama,AL,Crenshaw,1958
+Alabama,AL,Dale,1958
+Alabama,AL,Elmore,1958
+Alabama,AL,Etowah,1958
+Alabama,AL,Geneva,1958
+Alabama,AL,Greene,1958
+Alabama,AL,Hale,1958
+Alabama,AL,Henry,1958
+Alabama,AL,Houston,1958
+Alabama,AL,Jefferson,1958
+Alabama,AL,Lee,1958
+Alabama,AL,Limestone,1958
+Alabama,AL,Macon,1958
+Alabama,AL,Morgan,1958
+Alabama,AL,Pickens,1958
+Alabama,AL,Russell,1958
+Alabama,AL,Tuscaloosa,1958
+Alabama,AL,Walker,1958
+Arkansas,AR,Union,1958
+Florida,FL,Duval,1958
+Florida,FL,Gadsden,1958
+Florida,FL,Hillsborough,1958
+Florida,FL,Holmes,1958
+Florida,FL,Jackson,1958
+Florida,FL,Nassau,1958
+Florida,FL,Pasco,1958
+Florida,FL,Walton,1958
+Florida,FL,Washington,1958
+Georgia,GA,Crisp,1958
+Georgia,GA,Decatur,1958
+Georgia,GA,Grady,1958
+Georgia,GA,Muscogee,1958
+Louisiana,LA,Acadia,1958
+Louisiana,LA,Ascension,1958
+Louisiana,LA,Avoyelles,1958
+Louisiana,LA,Caddo,1958
+Louisiana,LA,Calcasieu,1958
+Louisiana,LA,Evangeline,1958
+Louisiana,LA,Iberville,1958
+Louisiana,LA,Livingston,1958
+Louisiana,LA,Ouachita,1958
+Louisiana,LA,Pointe Coupee,1958
+Louisiana,LA,St. Charles,1958
+Louisiana,LA,St. Helena,1958
+Louisiana,LA,St. John the Baptist,1958
+Louisiana,LA,St. Mary,1958
+Louisiana,LA,Tangipahoa,1958
+Louisiana,LA,Terrebonne,1958
+Louisiana,LA,West Baton Rouge,1958
+Louisiana,LA,West Feliciana,1958
+Mississippi,MS,Amite,1958
+Mississippi,MS,Attala,1958
+Mississippi,MS,Chickasaw,1958
+Mississippi,MS,Copiah,1958
+Mississippi,MS,Covington,1958
+Mississippi,MS,Hinds,1958
+Mississippi,MS,Jasper,1958
+Mississippi,MS,Jefferson Davis,1958
+Mississippi,MS,Lawrence,1958
+Mississippi,MS,Leake,1958
+Mississippi,MS,Lincoln,1958
+Mississippi,MS,Madison,1958
+Mississippi,MS,Monroe,1958
+Mississippi,MS,Neshoba,1958
+Mississippi,MS,Pike,1958
+Mississippi,MS,Rankin,1958
+Mississippi,MS,Simpson,1958
+Mississippi,MS,Smith,1958
+Mississippi,MS,Webster,1958
+Mississippi,MS,Wilkinson,1958
+Mississippi,MS,Yazoo,1958
+South Carolina,SC,Charleston,1958
+South Carolina,SC,Orangeburg,1958
+Texas,TX,Hardin,1958
+Texas,TX,Jasper,1958
+Texas,TX,Jefferson,1958
+Texas,TX,Newton,1958
+Texas,TX,Orange,1958
+Texas,TX,Tyler,1958
+Alabama,AL,Shelby,1959
+Alabama,AL,Talladega,1959
+Florida,FL,Calhoun,1959
+Florida,FL,Gulf,1959
+Georgia,GA,Bleckley,1959
+Georgia,GA,Clayton,1959
+Georgia,GA,Dooly,1959
+Georgia,GA,Dougherty,1959
+Georgia,GA,Harris,1959
+Georgia,GA,Meriwether,1959
+Georgia,GA,Troup,1959
+Louisiana,LA,Assumption,1959
+Louisiana,LA,Beauregard,1959
+Louisiana,LA,Concordia,1959
+Louisiana,LA,Lafourche,1959
+Louisiana,LA,Madison,1959
+Louisiana,LA,Rapides,1959
+Louisiana,LA,Richland,1959
+Mississippi,MS,Sharkey,1959
+Texas,TX,Bexar,1959
+Texas,TX,Harris,1959
+Alabama,AL,Lamar,1960
+Alabama,AL,Pike,1960
+Alabama,AL,St. Clair,1960
+Georgia,GA,Bibb,1960
+Georgia,GA,Early,1960
+Georgia,GA,Miller,1960
+Georgia,GA,Mitchell,1960
+Georgia,GA,Peach,1960
+Georgia,GA,Schley,1960
+Georgia,GA,Seminole,1960
+Georgia,GA,Sumter,1960
+Louisiana,LA,Bossier,1960
+Louisiana,LA,East Carroll,1960
+Louisiana,LA,Franklin,1960
+Louisiana,LA,Morehouse,1960
+Louisiana,LA,Tensas,1960
+Louisiana,LA,Union,1960
+Louisiana,LA,West Carroll,1960
+Mississippi,MS,Adams,1960
+Mississippi,MS,Calhoun,1960
+Mississippi,MS,Carroll,1960
+Mississippi,MS,Choctaw,1960
+Mississippi,MS,Franklin,1960
+Mississippi,MS,Scott,1960
+Alabama,AL,Chambers,1961
+Alabama,AL,Clay,1961
+Alabama,AL,Coosa,1961
+Alabama,AL,Tallapoosa,1961
+Florida,FL,Lake,1961
+Florida,FL,Leon,1961
+Florida,FL,Liberty,1961
+Florida,FL,Manatee,1961
+Florida,FL,Orange,1961
+Florida,FL,Seminole,1961
+Georgia,GA,Baker,1961
+Georgia,GA,Ben Hill,1961
+Georgia,GA,Chattahoochee,1961
+Georgia,GA,Colquitt,1961
+Georgia,GA,Dodge,1961
+Georgia,GA,Houston,1961
+Georgia,GA,Jones,1961
+Georgia,GA,Lee,1961
+Georgia,GA,Marion,1961
+Georgia,GA,Pierce,1961
+Georgia,GA,Quitman,1961
+Georgia,GA,Stewart,1961
+Georgia,GA,Talbot,1961
+Georgia,GA,Terrell,1961
+Georgia,GA,Thomas,1961
+Georgia,GA,Turner,1961
+Georgia,GA,Wilcox,1961
+Georgia,GA,Worth,1961
+Louisiana,LA,Allen,1961
+Louisiana,LA,Jefferson Davis,1961
+Louisiana,LA,Red River,1961
+Louisiana,LA,St. James,1961
+Mississippi,MS,Warren,1961
+Texas,TX,Liberty,1961
+Texas,TX,Montgomery,1961
+Alabama,AL,Coffee,1962
+Florida,FL,Pinellas,1962
+Florida,FL,Polk,1962
+Louisiana,LA,Caldwell,1962
+Louisiana,LA,Cameron,1962
+Louisiana,LA,Catahoula,1962
+Louisiana,LA,East Feliciana,1962
+Louisiana,LA,La Salle,1962
+Louisiana,LA,Lincoln,1962
+Louisiana,LA,Webster,1962
+Arkansas,AR,Ashley,1963
+Florida,FL,Clay,1963
+Florida,FL,Hernando,1963
+Mississippi,MS,Lee,1963
+Mississippi,MS,Washington,1963
+South Carolina,SC,Jasper,1963
+Florida,FL,Hardee,1964
+Georgia,GA,Clay,1964
+Georgia,GA,Crawford,1964
+Georgia,GA,DeKalb,1964
+Georgia,GA,Fulton,1964
+Georgia,GA,Gwinnett,1964
+Georgia,GA,Henry,1964
+Georgia,GA,Irwin,1964
+Georgia,GA,Lamar,1964
+Georgia,GA,Macon,1964
+Georgia,GA,Monroe,1964
+Georgia,GA,Pike,1964
+Georgia,GA,Pulaski,1964
+Georgia,GA,Randolph,1964
+Georgia,GA,Taylor,1964
+Georgia,GA,Telfair,1964
+Georgia,GA,Tift,1964
+Georgia,GA,Upson,1964
+Louisiana,LA,Grant,1964
+Mississippi,MS,Itawamba,1964
+Mississippi,MS,Jefferson,1964
+South Carolina,SC,Berkeley,1964
+South Carolina,SC,Dorchester,1964
+Alabama,AL,Blount,1966
+Alabama,AL,Cleburne,1966
+Alabama,AL,Fayette,1966
+Alabama,AL,Marion,1966
+Florida,FL,Baker,1966
+Florida,FL,Franklin,1966
+Florida,FL,Sarasota,1966
+Florida,FL,St. Johns,1966
+Florida,FL,Sumter,1966
+Florida,FL,Volusia,1966
+Florida,FL,Wakulla,1966
+Georgia,GA,Baldwin,1966
+Georgia,GA,Brantley,1966
+Georgia,GA,Bryan,1966
+Georgia,GA,Bulloch,1966
+Georgia,GA,Butts,1966
+Georgia,GA,Calhoun,1966
+Georgia,GA,Chatham,1966
+Georgia,GA,Coffee,1966
+Georgia,GA,Effingham,1966
+Georgia,GA,Fayette,1966
+Georgia,GA,Jeff Davis,1966
+Georgia,GA,Laurens,1966
+Georgia,GA,Liberty,1966
+Georgia,GA,Richmond,1966
+Georgia,GA,Spalding,1966
+Georgia,GA,Twiggs,1966
+Georgia,GA,Ware,1966
+Georgia,GA,Webster,1966
+Georgia,GA,Wheeler,1966
+Mississippi,MS,Claiborne,1966
+Mississippi,MS,Issaquena,1966
+Mississippi,MS,Pontotoc,1966
+Florida,FL,Jefferson,1967
+Georgia,GA,Evans,1967
+Georgia,GA,Rockdale,1967
+Louisiana,LA,Bienville,1967
+Louisiana,LA,De Soto,1967
+Louisiana,LA,Jackson,1967
+Louisiana,LA,Sabine,1967
+Louisiana,LA,Vernon,1967
+Mississippi,MS,Grenada,1967
+South Carolina,SC,Horry,1967
+Alabama,AL,Cullman,1969
+Alabama,AL,Randolph,1969
+Florida,FL,Alachua,1969
+Florida,FL,Bradford,1969
+Florida,FL,Brevard,1969
+Florida,FL,Charlotte,1969
+Florida,FL,Citrus,1969
+Florida,FL,Columbia,1969
+Florida,FL,DeSoto,1969
+Florida,FL,Dixie,1969
+Florida,FL,Hamilton,1969
+Florida,FL,Highlands,1969
+Florida,FL,Madison,1969
+Florida,FL,Marion,1969
+Florida,FL,Osceola,1969
+Florida,FL,Suwannee,1969
+Florida,FL,Taylor,1969
+Florida,FL,Union,1969
+Georgia,GA,Brooks,1969
+Georgia,GA,Cook,1969
+Georgia,GA,Heard,1969
+Georgia,GA,Lowndes,1969
+Georgia,GA,Wilkinson,1969
+Louisiana,LA,Natchitoches,1969
+Louisiana,LA,Winn,1969
+Mississippi,MS,Union,1969
+Texas,TX,Angelina,1969
+Texas,TX,Austin,1969
+Texas,TX,Brazoria,1969
+Texas,TX,Chambers,1969
+Texas,TX,Colorado,1969
+Texas,TX,Dallas,1969
+Texas,TX,Denton,1969
+Texas,TX,Fort Bend,1969
+Texas,TX,Galveston,1969
+Texas,TX,Gregg,1969
+Texas,TX,Grimes,1969
+Texas,TX,Nacogdoches,1969
+Texas,TX,Polk,1969
+Texas,TX,Sabine,1969
+Texas,TX,San Augustine,1969
+Texas,TX,San Jacinto,1969
+Texas,TX,Tarrant,1969
+Texas,TX,Waller,1969
+Texas,TX,Wharton,1969
+Mississippi,MS,Holmes,1970
+South Carolina,SC,Beaufort,1970
+South Carolina,SC,Calhoun,1970
+South Carolina,SC,Colleton,1970
+South Carolina,SC,Hampton,1970
+South Carolina,SC,Richland,1970
+Florida,FL,Flagler,1971
+Georgia,GA,Appling,1971
+Georgia,GA,Atkinson,1971
+Georgia,GA,Bacon,1971
+Georgia,GA,Berrien,1971
+Georgia,GA,Camden,1971
+Georgia,GA,Charlton,1971
+Georgia,GA,Clinch,1971
+Georgia,GA,Columbia,1971
+Georgia,GA,Coweta,1971
+Georgia,GA,Glynn,1971
+Georgia,GA,Jasper,1971
+Georgia,GA,Johnson,1971
+Georgia,GA,Lanier,1971
+Georgia,GA,McIntosh,1971
+Georgia,GA,Montgomery,1971
+Georgia,GA,Newton,1971
+Georgia,GA,Putnam,1971
+Georgia,GA,Screven,1971
+Georgia,GA,Tattnall,1971
+Georgia,GA,Toombs,1971
+Georgia,GA,Treutlen,1971
+Georgia,GA,Walton,1971
+Georgia,GA,Wayne,1971
+Mississippi,MS,Montgomery,1971
+Mississippi,MS,Prentiss,1971
+Mississippi,MS,Yalobusha,1971
+North Carolina,NC,Brunswick,1971
+North Carolina,NC,Carteret,1971
+North Carolina,NC,Columbus,1971
+North Carolina,NC,Craven,1971
+North Carolina,NC,Jones,1971
+North Carolina,NC,Onslow,1971
+South Carolina,SC,Bamberg,1971
+South Carolina,SC,Clarendon,1971
+South Carolina,SC,Florence,1971
+South Carolina,SC,Lexington,1971
+Arkansas,AR,Bradley,1972
+Arkansas,AR,Lafayette,1972
+Florida,FL,Collier,1972
+Georgia,GA,Long,1972
+Georgia,GA,Washington,1972
+Mississippi,MS,Bolivar,1972
+South Carolina,SC,Aiken,1972
+South Carolina,SC,Edgefield,1972
+South Carolina,SC,Georgetown,1972
+South Carolina,SC,Kershaw,1972
+South Carolina,SC,Marlboro,1972
+South Carolina,SC,Sumter,1972
+South Carolina,SC,Williamsburg,1972
+Texas,TX,Collin,1972
+Texas,TX,Harrison,1972
+Texas,TX,Panola,1972
+Texas,TX,Rusk,1972
+Texas,TX,Shelby,1972
+Arkansas,AR,Chicot,1973
+Florida,FL,Gilchrist,1973
+Florida,FL,Glades,1973
+Florida,FL,Lafayette,1973
+Florida,FL,Lee,1973
+Florida,FL,Levy,1973
+Florida,FL,Putnam,1973
+Georgia,GA,Carroll,1973
+Georgia,GA,Echols,1973
+Georgia,GA,Emanuel,1973
+Georgia,GA,Haralson,1973
+Georgia,GA,Jenkins,1973
+Louisiana,LA,Claiborne,1973
+Mississippi,MS,Humphreys,1973
+Mississippi,MS,Lafayette,1973
+Mississippi,MS,Tishomingo,1973
+North Carolina,NC,Pamlico,1973
+North Carolina,NC,Robeson,1973
+South Carolina,SC,Barnwell,1973
+Texas,TX,Fayette,1973
+Texas,TX,Houston,1973
+Texas,TX,Nueces,1973
+Texas,TX,Smith,1973
+Texas,TX,Trinity,1973
+Texas,TX,Victoria,1973
+Texas,TX,Walker,1973
+Texas,TX,Washington,1973
+Alabama,AL,Cherokee,1975
+Alabama,AL,Franklin,1975
+Alabama,AL,Lawrence,1975
+Alabama,AL,Winston,1975
+Arkansas,AR,Columbia,1975
+Florida,FL,Hendry,1975
+Florida,FL,Indian River,1975
+Florida,FL,Okeechobee,1975
+Georgia,GA,Cobb,1975
+Georgia,GA,Morgan,1975
+North Carolina,NC,Duplin,1975
+South Carolina,SC,Allendale,1975
+South Carolina,SC,Darlington,1975
+South Carolina,SC,Dillon,1975
+South Carolina,SC,Fairfield,1975
+South Carolina,SC,Lee,1975
+South Carolina,SC,Marion,1975
+Texas,TX,Atascosa,1975
+Texas,TX,Bowie,1975
+Texas,TX,Brazos,1975
+Texas,TX,Burleson,1975
+Texas,TX,Cherokee,1975
+Texas,TX,Comal,1975
+Texas,TX,DeWitt,1975
+Texas,TX,Ellis,1975
+Texas,TX,Jackson,1975
+Texas,TX,Kendall,1975
+Texas,TX,Lavaca,1975
+Texas,TX,Madison,1975
+Texas,TX,Marion,1975
+Texas,TX,Matagorda,1975
+Texas,TX,Medina,1975
+Texas,TX,San Patricio,1975
+Texas,TX,Wilson,1975
+Alabama,AL,Marshall,1976
+Arkansas,AR,Drew,1976
+Florida,FL,Broward,1976
+Florida,FL,Dade,1976
+Florida,FL,Martin,1976
+Florida,FL,Miami-Dade,1976
+Florida,FL,Monroe,1976
+Florida,FL,Palm Beach,1976
+Florida,FL,St. Lucie,1976
+Georgia,GA,Candler,1976
+Georgia,GA,Douglas,1976
+Georgia,GA,Hancock,1976
+Georgia,GA,Jefferson,1976
+Georgia,GA,Polk,1976
+Mississippi,MS,Leflore,1976
+Mississippi,MS,Sunflower,1976
+Mississippi,MS,Tippah,1976
+North Carolina,NC,New Hanover,1976
+Texas,TX,Anderson,1976
+Texas,TX,Bandera,1976
+Texas,TX,Caldwell,1976
+Texas,TX,Calhoun,1976
+Texas,TX,Frio,1976
+Texas,TX,Gonzales,1976
+Texas,TX,Grayson,1976
+Texas,TX,Guadalupe,1976
+Texas,TX,Kerr,1976
+Texas,TX,Leon,1976
+Texas,TX,Limestone,1976
+Texas,TX,Navarro,1976
+Texas,TX,Robertson,1976
+Texas,TX,Upshur,1976
+Texas,TX,Wood,1976
+Alabama,AL,Colbert,1977
+Alabama,AL,Lauderdale,1977
+Arkansas,AR,Calhoun,1977
+Arkansas,AR,Miller,1977
+Georgia,GA,Barrow,1977
+Georgia,GA,Burke,1977
+Georgia,GA,Clarke,1977
+Georgia,GA,Forsyth,1977
+Georgia,GA,Greene,1977
+Georgia,GA,McDuffie,1977
+North Carolina,NC,Lenoir,1977
+South Carolina,SC,McCormick,1977
+South Carolina,SC,Newberry,1977
+Texas,TX,Bee,1977
+Texas,TX,Bell,1977
+Texas,TX,Blanco,1977
+Texas,TX,Camp,1977
+Texas,TX,Falls,1977
+Texas,TX,Freestone,1977
+Texas,TX,Gillespie,1977
+Texas,TX,Jim Wells,1977
+Texas,TX,Milam,1977
+Texas,TX,Refugio,1977
+Texas,TX,Bastrop,1979
+Texas,TX,Cass,1979
+Texas,TX,Goliad,1979
+Texas,TX,Hays,1979
+Texas,TX,Lee,1979
+Texas,TX,Travis,1979
+Texas,TX,Williamson,1979
+Arkansas,AR,Cleveland,1983
+Arkansas,AR,Desha,1983
+Arkansas,AR,Ouachita,1983
+Georgia,GA,Cherokee,1983
+Georgia,GA,Floyd,1983
+Georgia,GA,Glascock,1983
+Georgia,GA,Oconee,1983
+Georgia,GA,Paulding,1983
+Georgia,GA,Taliaferro,1983
+Georgia,GA,Warren,1983
+Mississippi,MS,Alcorn,1983
+North Carolina,NC,Beaufort,1983
+North Carolina,NC,Bladen,1983
+North Carolina,NC,Pender,1983
+Puerto Rico,PR,Puerto Rico,1983
+Texas,TX,Aransas,1983
+Texas,TX,Henderson,1983
+Texas,TX,Hill,1983
+Texas,TX,McLennan,1983
+Texas,TX,Rains,1983
+Texas,TX,Rockwall,1983
+Alabama,AL,DeKalb,1984
+Alabama,AL,Madison,1984
+Georgia,GA,Hall,1984
+Georgia,GA,Lincoln,1984
+Georgia,GA,Wilkes,1984
+Mississippi,MS,Benton,1984
+Mississippi,MS,Panola,1984
+Georgia,GA,Bartow,1985
+Georgia,GA,Chattooga,1985
+Georgia,GA,Oglethorpe,1985
+Mississippi,MS,Tallahatchie,1985
+North Carolina,NC,Anson,1985
+North Carolina,NC,Richmond,1985
+North Carolina,NC,Sampson,1985
+North Carolina,NC,Scotland,1985
+North Carolina,NC,Union,1985
+Texas,TX,Johnson,1985
+Texas,TX,Kleberg,1985
+South Carolina,SC,Lancaster,1986
+Texas,TX,Live Oak,1986
+Arkansas,AR,Dallas,1987
+Arkansas,AR,Hempstead,1987
+Arkansas,AR,Jefferson,1987
+Arkansas,AR,Lincoln,1987
+Arkansas,AR,Little River,1987
+Arkansas,AR,Nevada,1987
+South Carolina,SC,Chester,1987
+South Carolina,SC,Chesterfield,1987
+South Carolina,SC,Saluda,1987
+South Carolina,SC,Union,1987
+Alabama,AL,Jackson,1988
+Arkansas,AR,Howard,1988
+Georgia,GA,Banks,1988
+Georgia,GA,Elbert,1988
+Georgia,GA,Gordon,1988
+Georgia,GA,Jackson,1988
+Georgia,GA,Madison,1988
+Georgia,GA,Whitfield,1988
+Mississippi,MS,Marshall,1988
+North Carolina,NC,Hyde,1988
+Oklahoma,OK,Bryan,1988
+Oklahoma,OK,Marshall,1988
+Oklahoma,OK,McCurtain,1988
+Texas,TX,Bosque,1988
+Texas,TX,Burnet,1988
+Texas,TX,Comanche,1988
+Texas,TX,Cooke,1988
+Texas,TX,Coryell,1988
+Texas,TX,Duval,1988
+Texas,TX,Eastland,1988
+Texas,TX,Erath,1988
+Texas,TX,Fannin,1988
+Texas,TX,Franklin,1988
+Texas,TX,Hood,1988
+Texas,TX,Hunt,1988
+Texas,TX,Karnes,1988
+Texas,TX,Kaufman,1988
+Texas,TX,Kimble,1988
+Texas,TX,Lampasas,1988
+Texas,TX,Llano,1988
+Texas,TX,Morris,1988
+Texas,TX,Parker,1988
+Texas,TX,Somervell,1988
+Texas,TX,Taylor,1988
+Texas,TX,Titus,1988
+Texas,TX,Tom Green,1988
+Texas,TX,Uvalde,1988
+Texas,TX,Van Zandt,1988
+Texas,TX,Wichita,1988
+Texas,TX,Wise,1988
+Texas,TX,Young,1988
+Mississippi,MS,Tate,1990
+Tennessee,TN,Hardin,1990
+Tennessee,TN,McNairy,1990
+Texas,TX,Hopkins,1990
+Texas,TX,Mason,1990
+Arkansas,AR,Grant,1991
+South Carolina,SC,Greenwood,1991
+Tennessee,TN,Hardeman,1991
+Texas,TX,Edwards,1991
+Texas,TX,Hamilton,1991
+Texas,TX,McMullen,1991
+Texas,TX,Midland,1991
+Texas,TX,Real,1991
+North Carolina,NC,Cumberland,1992
+North Carolina,NC,Hoke,1992
+North Carolina,NC,Martin,1992
+North Carolina,NC,Pitt,1992
+North Carolina,NC,Tyrrell,1992
+North Carolina,NC,Washington,1992
+Oklahoma,OK,Love,1992
+South Carolina,SC,Abbeville,1992
+Texas,TX,Webb,1992
+Georgia,GA,Catoosa,1993
+Georgia,GA,Dade,1993
+Georgia,GA,Dawson,1993
+Georgia,GA,Hart,1993
+Georgia,GA,Murray,1993
+Georgia,GA,Walker,1993
+Arkansas,AR,Hot Spring,1995
+Georgia,GA,Fannin,1995
+Georgia,GA,Franklin,1995
+Georgia,GA,Gilmer,1995
+Georgia,GA,Lumpkin,1995
+Georgia,GA,Pickens,1995
+Georgia,GA,Stephens,1995
+Mississippi,MS,DeSoto,1995
+Mississippi,MS,Quitman,1995
+North Carolina,NC,Dare,1995
+North Carolina,NC,Mecklenburg,1995
+North Carolina,NC,Montgomery,1995
+Oklahoma,OK,Carter,1995
+South Carolina,SC,Anderson,1995
+South Carolina,SC,Greenville,1995
+South Carolina,SC,Laurens,1995
+South Carolina,SC,York,1995
+Tennessee,TN,Fayette,1995
+Tennessee,TN,Wayne,1995
+Mississippi,MS,Coahoma,1997
+Mississippi,MS,Tunica,1997
+Tennessee,TN,Bradley,1997
+Tennessee,TN,Hamilton,1997
+Tennessee,TN,McMinn,1997
+Texas,TX,Brooks,1997
+Texas,TX,Cameron,1997
+Texas,TX,Delta,1997
+Texas,TX,Dimmit,1997
+Texas,TX,Jack,1997
+Texas,TX,Kenedy,1997
+Texas,TX,Kinney,1997
+Texas,TX,Lamar,1997
+Texas,TX,McCulloch,1997
+Texas,TX,Montague,1997
+Texas,TX,San Saba,1997
+Texas,TX,Zavala,1997
+Texas,TX,Brown,1998
+Texas,TX,Ector,1998
+Texas,TX,Hidalgo,1998
+Texas,TX,Jones,1998
+Texas,TX,La Salle,1998
+Texas,TX,Maverick,1998
+Texas,TX,Palo Pinto,1998
+Texas,TX,Red River,1998
+Texas,TX,Stephens,1998
+Texas,TX,Val Verde,1998
+Texas,TX,Willacy,1998
+Arkansas,AR,Garland,1999
+Arkansas,AR,Pike,1999
+Arkansas,AR,Pulaski,1999
+Arkansas,AR,Saline,1999
+Arkansas,AR,Sevier,1999
+North Carolina,NC,Cabarrus,1999
+North Carolina,NC,Greene,1999
+North Carolina,NC,Moore,1999
+North Carolina,NC,Stanly,1999
+North Carolina,NC,Wayne,1999
+Oklahoma,OK,Choctaw,1999
+Oklahoma,OK,Comanche,1999
+Oklahoma,OK,Johnston,1999
+South Carolina,SC,Cherokee,1999
+South Carolina,SC,Oconee,1999
+South Carolina,SC,Pickens,1999
+South Carolina,SC,Spartanburg,1999
+Tennessee,TN,Chester,1999
+Tennessee,TN,Decatur,1999
+Tennessee,TN,Franklin,1999
+Tennessee,TN,Giles,1999
+Tennessee,TN,Henderson,1999
+Tennessee,TN,Lawrence,1999
+Tennessee,TN,Lincoln,1999
+Tennessee,TN,Marion,1999
+Tennessee,TN,Polk,1999
+Tennessee,TN,Shelby,1999
+New Mexico,NM,Dona Ana,2000
+North Carolina,NC,Bertie,2000
+North Carolina,NC,Chowan,2000
+North Carolina,NC,Perquimans,2000
+Tennessee,TN,Madison,2000
+Arkansas,AR,Clark,2001
+North Carolina,NC,Camden,2001
+North Carolina,NC,Chatham,2001
+North Carolina,NC,Currituck,2001
+North Carolina,NC,Edgecombe,2001
+North Carolina,NC,Gaston,2001
+North Carolina,NC,Pasquotank,2001
+North Carolina,NC,Wake,2001
+Tennessee,TN,Haywood,2001
+Tennessee,TN,Lewis,2001
+Tennessee,TN,Marshall,2001
+Tennessee,TN,Maury,2001
+Tennessee,TN,Meigs,2001
+Tennessee,TN,Monroe,2001
+Tennessee,TN,Moore,2001
+Tennessee,TN,Perry,2001
+Tennessee,TN,Rhea,2001
+Tennessee,TN,Sequatchie,2001
+Arkansas,AR,Faulkner,2003
+Arkansas,AR,Polk,2003
+Georgia,GA,Habersham,2003
+Georgia,GA,Rabun,2003
+Georgia,GA,Towns,2003
+Georgia,GA,Union,2003
+Georgia,GA,White,2003
+North Carolina,NC,Harnett,2003
+North Carolina,NC,Hertford,2003
+North Carolina,NC,Lee,2003
+North Carolina,NC,Nash,2003
+North Carolina,NC,Cherokee,2005
+North Carolina,NC,Clay,2005
+North Carolina,NC,Cleveland,2005
+North Carolina,NC,Durham,2005
+North Carolina,NC,Johnston,2005
+North Carolina,NC,Orange,2005
+North Carolina,NC,Polk,2005
+North Carolina,NC,Randolph,2005
+North Carolina,NC,Wilson,2005
+Tennessee,TN,Bedford,2005
+Tennessee,TN,Blount,2005
+Tennessee,TN,Coffee,2005
+Tennessee,TN,Grundy,2005
+Tennessee,TN,Loudon,2005
+Arkansas,AR,Montgomery,2006
+Tennessee,TN,Benton,2006
+Tennessee,TN,Bledsoe,2006
+Tennessee,TN,Carroll,2006
+Tennessee,TN,Cumberland,2006
+Tennessee,TN,Hickman,2006
+Tennessee,TN,Humphreys,2006
+Tennessee,TN,Roane,2006
+Arkansas,AR,Perry,2007
+Tennessee,TN,Anderson,2007
+Tennessee,TN,Davidson,2007
+Tennessee,TN,Gibson,2007
+Tennessee,TN,Knox,2007
+Tennessee,TN,Rutherford,2007
+Tennessee,TN,Tipton,2007
+Tennessee,TN,Van Buren,2007
+Tennessee,TN,Williamson,2007
+Arkansas,AR,Lonoke,2008
+Arkansas,AR,Yell,2008
+North Carolina,NC,Iredell,2008
+North Carolina,NC,Lincoln,2008
+North Carolina,NC,Rutherford,2008
+Tennessee,TN,Crockett,2008
+Tennessee,TN,Morgan,2008
+Tennessee,TN,Warren,2008
+Arkansas,AR,Arkansas,2009
+Oklahoma,OK,Atoka,2009
+Oklahoma,OK,Coal,2009
+Oklahoma,OK,Cotton,2009
+Oklahoma,OK,Garvin,2009
+Oklahoma,OK,Jackson,2009
+Oklahoma,OK,Jefferson,2009
+Oklahoma,OK,Le Flore,2009
+Oklahoma,OK,Murray,2009
+Oklahoma,OK,Pontotoc,2009
+Oklahoma,OK,Pushmataha,2009
+Oklahoma,OK,Stephens,2009
+Oklahoma,OK,Tillman,2009
+Tennessee,TN,Cannon,2009
+Tennessee,TN,Sevier,2009
+Tennessee,TN,White,2009
+Texas,TX,Archer,2009
+Texas,TX,Baylor,2009
+Texas,TX,Callahan,2009
+Texas,TX,Clay,2009
+Texas,TX,Coke,2009
+Texas,TX,Coleman,2009
+Texas,TX,Concho,2009
+Texas,TX,Crane,2009
+Texas,TX,Crockett,2009
+Texas,TX,Fisher,2009
+Texas,TX,Haskell,2009
+Texas,TX,Howard,2009
+Texas,TX,Irion,2009
+Texas,TX,Lubbock,2009
+Texas,TX,Martin,2009
+Texas,TX,Mitchell,2009
+Texas,TX,Nolan,2009
+Texas,TX,Reagan,2009
+Texas,TX,Runnels,2009
+Texas,TX,Schleicher,2009
+Texas,TX,Scurry,2009
+Texas,TX,Shackelford,2009
+Texas,TX,Starr,2009
+Texas,TX,Terrell,2009
+Texas,TX,Throckmorton,2009
+Texas,TX,Upton,2009
+Texas,TX,Ward,2009
+Texas,TX,Wilbarger,2009
+Texas,TX,Winkler,2009
+Virginia,VA,Chesapeake,2009
+Virginia,VA,Hampton,2009
+Virginia,VA,Hampton,2009
+Virginia,VA,James City,2009
+Virginia,VA,Newport News,2009
+Virginia,VA,Norfolk,2009
+Virginia,VA,Suffolk,2009
+Virginia,VA,Virginia Beach,2009
+Virginia,VA,Williamsburg,2009
+Virginia,VA,York,2009
+Tennessee,TN,Wilson,2011
+Virginia,VA,Poquoson,2015
+Arkansas,AR,Conway,2016
+Arkansas,AR,Crittenden,2016
+Arkansas,AR,Phillips,2016
+Arkansas,AR,Pope,2016
+Arkansas,AR,Scott,2016
+North Carolina,NC,Catawba,2016
+North Carolina,NC,Davidson,2016
+North Carolina,NC,Franklin,2016
+North Carolina,NC,Gates,2016
+North Carolina,NC,Graham,2016
+North Carolina,NC,Granville,2016
+North Carolina,NC,Halifax,2016
+North Carolina,NC,Macon,2016
+North Carolina,NC,Northampton,2016
+North Carolina,NC,Rowan,2016
+Tennessee,TN,Cocke,2016
+Tennessee,TN,Houston,2016
+Tennessee,TN,Jefferson,2016
+Texas,TX,Mills,2016
+North Carolina,NC,Rutherford,2017
+Oklahoma,OK,Latimer,2017
+Tennessee,TN,DeKalb,2017
+Tennessee,TN,Union,2017
+Tennessee,TN,Wilson,2017
+North Carolina,NC,Warren,2018
+Tennessee,TN,Grainger,2018
+Tennessee,TN,Hamblen,2018
+Arkansas,AR,Logan,2021
+Arkansas,AR,Prairie,2021
+Arkansas,AR,Sebastian,2021
+Arkansas,AR,White,2021
+North Carolina,NC,Alamance,2021
+North Carolina,NC,Burke,2021
+North Carolina,NC,Guilford,2021
+North Carolina,NC,Jackson,2021
+North Carolina,NC,McDowell,2021
+North Carolina,NC,Orange,2021
+North Carolina,NC,Vance,2021
+Oklahoma,OK,Pittsburg,2021
+Tennessee,TN,Cheatham,2021
+Tennessee,TN,Dickson,2021
+Tennessee,TN,Henry,2021
+Tennessee,TN,Lauderdale,2021
+Tennessee,TN,Montgomery,2021
+Tennessee,TN,Putnam,2021
+Tennessee,TN,Smith,2021
+Tennessee,TN,Stewart,2021
+Tennessee,TN,Sumner,2021
+Tennessee,TN,Trousdale,2021
+Tennessee,TN,Weakley,2021
+Virginia,VA,Brunswick,2021
+Virginia,VA,Greensville,2021
+Virginia,VA,Isle of Wight,2021
+Virginia,VA,Mecklenburg,2021
+Virginia,VA,Southampton,2021
+Arkansas,AR,Cross,2022
+Arkansas,AR,Franklin,2022
+Arkansas,AR,Johnson,2022
+Arkansas,AR,Lee,2022
+Arkansas,AR,Monroe,2022
+Arkansas,AR,St. Francis,2022
+Arkansas,AR,Woodruff,2022
+Tennessee,TN,Morgan,2022
+Tennessee,TN,Union,2022
