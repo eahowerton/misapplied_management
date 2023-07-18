@@ -2,6 +2,7 @@
 library(dplyr)
 library(ggplot2)
 library(cowplot)
+library(RColorBrewer)
 
 source("src/model/simulation_model.R")
 source("src/model/setup_model_simulations.R")
@@ -24,7 +25,7 @@ rsum = rsum %>%
 detection_thresh = 100
 detection_location = calc_wave_front(IC$N1, detection_thresh)[1]
 wave_actual = calc_wave_front(IC$N1, 1)[1]
-x_lims = c(-30, 30)
+x_lims = c(-31, 31)
 
 species_labels = data.frame(x = c(x_lims[1] + 2,x_lims[2]-2), 
                             y = c(max(IC$N1[1,]) - 700, max(IC$N2[1,])+700), 
@@ -38,12 +39,12 @@ p1 = data.frame(location = rep(1:ncol(IC$N1),2) - wave_actual,
   ggplot(aes(x = location, y = abund)) + 
   geom_line(aes(color = species), size = 1) + 
   geom_text(data = species_labels, aes(x = x, y = y, label = text, hjust = hjust), size = 3) +
-  geom_hline(yintercept = detection_thresh, linetype = "longdash") +
+  #geom_hline(yintercept = detection_thresh, linetype = "longdash") +
   labs(x = "location on landscape", y = "density") +
   scale_color_manual(values = c("grey75", "black")) +
   scale_x_continuous(breaks = c(detection_location-wave_actual,wave_actual-wave_actual),
                      expand = c(0,0), 
-                     labels = c("detection\nthreshold","wave\nfront"),
+                     labels = c("detectable\nfront","wave\nfront"),
                      limits = x_lims)+
   theme_classic()+
   theme(axis.text.y =element_blank(), # axis.text.y
@@ -71,6 +72,10 @@ pnts = rsum %>%
   mutate(colr = ifelse(delta_spread_time < -1, "dec", 
                        ifelse(delta_spread_time > 1, "inc", "no change")))
 
+letter_labs = data.frame(y = -1*c(achieve_dist_locs[1], waste_dist_locs[1], worse_dist_locs[1]),
+                         x = c(achieve_dist_locs[2], waste_dist_locs[2], worse_dist_locs[2]), 
+                         lab = LETTERS[1:3])
+
 p2 = rsum %>%
   ggplot() + 
   geom_tile(aes(x = DistColEnd,
@@ -82,14 +87,23 @@ p2 = rsum %>%
             fill = NA, color = "grey45") +
   geom_point(data = pnts,
              aes(x = DistColEnd, y = -DistColStart, color = colr), size = 1.5) +
-  geom_line(data =  rsum  %>%
-              mutate(effort = DistColEnd - DistColStart + 1) %>%
-              filter(effort == 13),
-            aes(x = DistColEnd, y = -DistColStart), 
-            linetype = "dotted") +
+  geom_text(data = data.frame(x = rsum$DistColStart %>% unique()-1.5, 
+                              y = -1*rsum$DistColStart %>% unique(), 
+                              lab = rsum$DistColStart %>% unique()), 
+            aes(x = x, y = y, label = lab), hjust = 1, size = 2) +
+  geom_text(data = data.frame(x = rsum$DistColEnd %>% unique(), 
+                              y = 29, 
+                              lab = rsum$DistColEnd %>% unique()), 
+            aes(x = x, y = y, label = lab), vjust = 0, size = 2) +
+  geom_text(data = letter_labs, aes(x = x, y = y, label = lab), size = 2) + 
+  # geom_line(data =  rsum  %>%
+  #             mutate(effort = DistColEnd - DistColStart + 1) %>%
+  #             filter(effort == 13),
+  #           aes(x = DistColEnd, y = -DistColStart), 
+  #           linetype = "dotted") +
   labs(x = "ending location of management", 
        y = "starting location\nof management", 
-       fill = "change in\ninvasion\ntime") +
+       fill = "change in\ninvasion time\n(years)") +
   #lims(x = x_lims) +
   guides(color = "none") +
   scale_fill_distiller(direction = 0, 
@@ -102,7 +116,7 @@ p2 = rsum %>%
   theme(
     axis.line = element_blank(), 
     axis.text = element_blank(),
-    axis.title.y = element_text(angle = 0, vjust =0.95),
+    axis.title.y = element_blank(),#element_text(angle = 0, vjust =0.95),
     axis.ticks = element_blank(),
     legend.position = c(0.9, 0.5),
     panel.grid = element_blank(), 
@@ -114,8 +128,7 @@ p2 = rsum %>%
 
 p = plot_grid(p1, p2, 
               axis = "l",align = "v",
-          ncol = 1, rel_heights = c(1/3, 2/3))
+              ncol = 1, rel_heights = c(1/3, 2/3))
 p
+
 ggsave("output/figures/figure1.pdf", width = 6, height = 6)
-
-
