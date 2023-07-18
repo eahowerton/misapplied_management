@@ -48,5 +48,10 @@ testing = testing[testing$DistColStart <= testing$DistColEnd,]
 testing = testing[testing$DistColEnd < 10, ]
 testing$id = 1:nrow(testing)
 
+#### SETUP EXAMPLES OF EACH CASE -----------------------------------------------
+worse_dist_locs <- c(-14, 0)
+achieve_dist_locs <- c(-20, -6)
+waste_dist_locs <- c(-12, -8)
+
 
 
