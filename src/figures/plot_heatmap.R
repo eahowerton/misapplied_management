@@ -32,6 +32,14 @@ species_labels = data.frame(x = c(x_lims[1] + 2,x_lims[2]-2),
                             text = c("invader", "native"), 
                             hjust = c(0,1))
 
+location_breaks = c(seq(-28,detection_location-wave_actual,14), 
+                   detection_location-wave_actual, 
+                   seq(0,28,14))
+location_labels = as.character(location_breaks)
+location_labels[location_labels == as.character(detection_location-wave_actual)] = 
+  paste0(detection_location-wave_actual,"\ndetectable\nfront")
+location_labels[location_labels == "0"] = "0\nwave\nfront"
+
 # plot results
 p1 = data.frame(location = rep(1:ncol(IC$N1),2) - wave_actual,
                 abund = c(IC$N1[1,], IC$N2[1,]), 
@@ -42,12 +50,14 @@ p1 = data.frame(location = rep(1:ncol(IC$N1),2) - wave_actual,
   #geom_hline(yintercept = detection_thresh, linetype = "longdash") +
   labs(x = "location on landscape", y = "density") +
   scale_color_manual(values = c("grey75", "black")) +
-  scale_x_continuous(breaks = c(detection_location-wave_actual,wave_actual-wave_actual),
+  scale_x_continuous(breaks = location_breaks,#c(detection_location-wave_actual,wave_actual-wave_actual),
                      expand = c(0,0), 
-                     labels = c("detectable\nfront","wave\nfront"),
+                     labels = location_labels,
+                     #labels = c("detectable\nfront","wave\nfront"),
                      limits = x_lims)+
   theme_classic()+
-  theme(axis.text.y =element_blank(), # axis.text.y
+  theme(axis.text.x = element_text(size = 5.5),
+        axis.text.y =element_blank(), # axis.text.y
         axis.ticks.y = element_blank(), #  axis.ticks.y
         axis.title.x = element_blank(),
         axis.title.y = element_text(angle = 0, vjust =0.95),
@@ -132,3 +142,4 @@ p = plot_grid(p1, p2,
 p
 
 ggsave("output/figures/figure1.pdf", width = 6, height = 6)
+
