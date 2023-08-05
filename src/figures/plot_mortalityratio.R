@@ -21,6 +21,7 @@ rsum = rsum %>%
   filter(Dist1 != 0) %>%
   mutate(delta_spread_time = mean_spread_time - no_control$mean_spread_time)
 
+wave_actual = calc_wave_front(IC$N1, 1)[1]
 IC_shift <- data.frame(location = rep(1:ncol(IC$N1),2) - wave_actual,
                        abund = c(IC$N1[1,], IC$N2[1,]), 
                        species = c(rep("N1", ncol(IC$N1)),rep("N2", ncol(IC$N1)))) %>%
