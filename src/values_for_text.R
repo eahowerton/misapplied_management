@@ -79,3 +79,21 @@ rsum %>%
 rsum %>% 
   filter(DistColStart == -28, 
          DistColEnd == -8)
+
+# max change in inv. time base case vs. sensitivity analysis
+rsum %>%
+  ungroup() %>%
+  filter(delta_spread_time == min(delta_spread_time))
+
+plot_all %>%
+  mutate(baseVal = case_when(changeVar == "a12" ~ Param.FireAnt[["a12"]], 
+                             changeVar == "a21" ~ Param.FireAnt[["a21"]], 
+                             changeVar == "a22" ~ Param.FireAnt[["a22"]], 
+                             changeVar == "DispDist2" ~ Param.FireAnt[["DispDist2"]], 
+                             changeVar == "Dist1" ~ Param.FireAnt[["Dist1"]])) %>%
+  mutate(changeValPct = round((changeVal - baseVal)/baseVal,3)) %>%
+  filter(changeVar == "a12", round(changeValPct,3) == 0.05) %>%
+  ungroup() %>%
+  filter(delta_spread_time == min(delta_spread_time))
+  
+
