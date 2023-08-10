@@ -52,7 +52,7 @@ plot_all %>%
              labeller = label_both) + 
   guides(color = "none") +
   labs(x = "starting location of management\n(relative to invader wave front)", 
-       y = "change in invasion time") +
+       y = "change in invasion time (years)") +
   scale_color_distiller(direction = 0, 
                        palette = "PuOr", 
                        limits = c(-1,1)*max(abs(rsum %>% filter(DistColEnd < 16) %>% pull(delta_spread_time)))) +
@@ -70,7 +70,7 @@ plot_all %>%
         panel.spacing = unit(0.1, "lines"), 
         strip.background = element_blank()) #+
   #panel_border(color = "black")
-ggsave("output/figures/figure2.pdf", width = 5.5, height = 2, scale = 1.5)
+ggsave("output/figures/lines_alleffort.pdf", width = 5.5, height = 2, scale = 1.5)
 
 
 plot_all %>%
@@ -100,5 +100,5 @@ plot_all %>%
         panel.spacing = unit(0.1, "lines"), 
         strip.background = element_blank()) #+
 #panel_border(color = "black")
-ggsave("output/figures/figure2_simp.pdf", width = 6, height = 6)
+ggsave("output/figures/lines.pdf", width = 6, height = 6)
 

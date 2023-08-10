@@ -62,14 +62,14 @@ p <- ggplot(data = rsum %>%
   geom_hline(aes(yintercept = 0)) +
   # geom_line(data = grad,
   #           aes(x=x, y=y, color=y),size=8)+
-  geom_line(aes(group = DistColEnd - DistColStart + 1), color = "grey", size = 0.25, linetype = "dashed") + 
-  geom_point(aes(fill = as.factor(d_spread_time_cat)), shape = 21, size = 2.5) + # shape = 21, color = 'black', fill = "white" #
-  geom_text(aes(label = letter_labs), size = 1.9)+ 
+  geom_line(aes(group = DistColEnd - DistColStart + 1), color = "grey", size = 0.2, linetype = "dashed") + 
+  geom_point(aes(fill = as.factor(d_spread_time_cat)), shape = 21, size = 1.4, stroke = 0.25) + # shape = 21, color = 'black', fill = "white" #
+  geom_text(aes(label = letter_labs), size = 1)+ 
   geom_text(data = data.frame(x = c(-1, 1)*0.75, 
                               y = Inf, 
                               lab = c("more natives killed", "more invaders killed"), 
                               hjust = c(1,0)), 
-            aes(x = x, y = y, label = lab, hjust = hjust), vjust = 1) +
+            aes(x = x, y = y, label = lab, hjust = hjust), vjust = 1, size = 2) +
   #facet_wrap(vars(DistColEnd - DistColStart + 1)) +
   scale_color_distiller(direction = 0, 
                         palette = "PuOr", 
@@ -78,8 +78,8 @@ p <- ggplot(data = rsum %>%
   scale_x_continuous(name = "mortality ratio = log(invaders killed/natives killed)") +
   scale_y_continuous(limits = c(-1,1)*max(abs(rsum$delta_spread_time)),
                      name = "change in invasion time (years)") +
-  theme_bw() + 
+  theme_bw(base_size = 8) + 
   theme(legend.position = "none", 
         panel.grid= element_blank())
-ggsave("output/figures/mortality_rate.pdf", p, width = 6, height = 6)
+ggsave("output/figures/mortality_rate.pdf", p, width = 7.75, height = 7.75, units = "cm", scale = 1)
 

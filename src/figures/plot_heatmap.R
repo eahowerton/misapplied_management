@@ -141,5 +141,5 @@ p = plot_grid(p1, p2,
               ncol = 1, rel_heights = c(1/3, 2/3))
 p
 
-ggsave("output/figures/figure1.pdf", width = 6, height = 6)
+ggsave("output/figures/heatmap.pdf", width = 6, height = 6)
 
