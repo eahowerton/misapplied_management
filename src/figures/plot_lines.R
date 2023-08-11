@@ -82,7 +82,7 @@ plot_all %>%
             aes(x=x, y=y, color=y),size=8)+
   guides(color = "none") +
   labs(x = "starting location of management\n(relative to invader wave front)", 
-       y = "change in invasion time") +
+       y = "change in invasion time (years)") +
   scale_color_distiller(direction = 0, 
                         palette = "PuOr", 
                         limits = c(-1,1)*max(abs(rsum %>% filter(DistColEnd < 16) %>% pull(delta_spread_time)))) +
@@ -90,7 +90,7 @@ plot_all %>%
                         values = c("solid", "longdash")) +
   scale_x_continuous(expand = c(0, 0)) +
   scale_y_continuous(expand = c(0, 0)) +
-  theme_bw() + 
+  theme_bw(base_size = 8) + 
   theme(legend.key.width = unit(2, "lines"),
         legend.position = "bottom", 
         legend.title = element_blank(),
@@ -100,5 +100,5 @@ plot_all %>%
         panel.spacing = unit(0.1, "lines"), 
         strip.background = element_blank()) #+
 #panel_border(color = "black")
-ggsave("output/figures/lines.pdf", width = 6, height = 6)
+ggsave("output/figures/lines.pdf", width = 8.5, height = 8.5, units = "cm")
 
