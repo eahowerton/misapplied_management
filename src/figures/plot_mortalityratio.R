@@ -55,16 +55,16 @@ p <- ggplot(data = rsum %>%
                                             ifelse(paste(DistColStart, DistColEnd, sep = "_") == 
                                                      paste(worse_dist_locs[1], worse_dist_locs[2], sep = "_"), "C", NA)))),
          aes(x = log(N1_IC_abund/N2_IC_abund), y = delta_spread_time)) +#, fill = delta_spread_time)) + 
-  annotate("rect", xmin = -Inf, xmax = -10, ymin = -1, ymax = 1, fill = "grey", alpha = 0.8) +
-  annotate("rect", xmin = -Inf, xmax = -10, ymin = -Inf, ymax = -1, fill = brewer.pal(6, "PuOr")[2], alpha = 0.8) +
-  annotate("rect", xmin = -Inf, xmax = -10, ymin = 1, ymax = Inf, fill = brewer.pal(6, "PuOr")[5], alpha = 0.8) +
-  geom_vline(aes(xintercept = 0)) +
-  geom_hline(aes(yintercept = 0)) +
+  annotate("rect", xmin = -Inf, xmax = -10, ymin = -1, ymax = 1, fill = "grey") +
+  annotate("rect", xmin = -Inf, xmax = -10, ymin = -Inf, ymax = -1, fill = brewer.pal(6, "PuOr")[2]) +
+  annotate("rect", xmin = -Inf, xmax = -10, ymin = 1, ymax = Inf, fill = brewer.pal(6, "PuOr")[5]) +
+  geom_vline(aes(xintercept = 0), size = 0.25) +
+  geom_hline(aes(yintercept = -1), size = 0.25) +
+  geom_hline(aes(yintercept = 1), size = 0.25) +
   # geom_line(data = grad,
   #           aes(x=x, y=y, color=y),size=8)+
   geom_line(aes(group = DistColEnd - DistColStart + 1), color = "grey", size = 0.2, linetype = "dashed") + 
   geom_point(aes(fill = as.factor(d_spread_time_cat)), shape = 21, size = 1.4, stroke = 0.25) + # shape = 21, color = 'black', fill = "white" #
-  geom_text(aes(label = letter_labs), size = 1)+ 
   geom_text(data = data.frame(x = c(-1, 1)*0.75, 
                               y = Inf, 
                               lab = c("more natives killed", "more invaders killed"), 
@@ -76,10 +76,12 @@ p <- ggplot(data = rsum %>%
                         limits = range(grad$y)) + 
   scale_fill_manual(values = c(brewer.pal(6, "PuOr")[2],"grey65",brewer.pal(6, "PuOr")[5])) +
   scale_x_continuous(name = "mortality ratio = log(invaders killed/natives killed)") +
-  scale_y_continuous(limits = c(-1,1)*max(abs(rsum$delta_spread_time)),
+  scale_y_continuous(breaks = c(-20,-10,-1,1,10,20), 
+                     limits = c(-1,1)*max(abs(rsum$delta_spread_time)),
                      name = "change in invasion time (years)") +
   theme_bw(base_size = 8) + 
-  theme(legend.position = "none", 
+  theme(
+    legend.position = "none", 
         panel.grid= element_blank())
 ggsave("output/figures/mortality_rate.pdf", p, width = 7.75, height = 7.75, units = "cm", scale = 1)
 
