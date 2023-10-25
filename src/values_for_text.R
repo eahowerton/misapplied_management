@@ -66,9 +66,8 @@ rsum %>%
 
 # misidentify wave front
 rsum %>%
-  mutate(effort = DistColEnd - DistColStart + 1) %>%
-  filter(effort == 13)
-
+  filter(DistColStart == -28 & 
+           DistColEnd %in% c(0,-8))
 
 # most effective strategy
 rsum %>%
