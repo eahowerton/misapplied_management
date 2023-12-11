@@ -1,9 +1,7 @@
 
 # Misapplied management makes matters worse: Spatially explicit control leverages biotic interactions to slow invasion
 
-<!-- badges: start -->
-<!-- badges: end -->
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10359711.svg)](https://doi.org/10.5281/zenodo.10359711)
 This repository includes all code and data necessary to recreate the analyses for the  manuscript: 
 
 
