@@ -5,7 +5,7 @@
 This repository includes all code and data necessary to recreate the analyses for the  manuscript: 
 
 
-E. Howerton, T. Langkilde, and K. Shea. *Misapplied management makes matters worse: Spatially explicit control leverages biotic interactions to slow invasion*. Submitted 2023. 
+E. Howerton, T. Langkilde, and K. Shea. Misapplied management makes matters worse: Spatially explicit control leverages biotic interactions to slow invasion. *Ecological Applications* e2974 (2024).
 
 
 ## File structure and definitions
